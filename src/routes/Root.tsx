@@ -13,7 +13,7 @@ function App() {
         <div className='mt-10'>
             <h2>Port Jefferson's Dilemma</h2>
             <TextBody 
-                src='https://patch.com/img/cdn20/users/22841595/20211216/013941/styles/patch_image/public/one-north-view2-v3___16133935784.jpg?width=1200'
+                src='pjbuilding.jpg'
                 alt='Port Jefferson'
                 caption='Port Jefferson Building'
                 width={300}
@@ -39,7 +39,7 @@ function App() {
             </TextBody>
         </div>
 
-        <embed src="test.pdf" type="application/pdf" width="500" height="500"/>
+        {/* <embed src="test.pdf" type="application/pdf" width="500" height="500"/> */}
     </main>
 
     <Footer />
