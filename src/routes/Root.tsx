@@ -38,6 +38,8 @@ function App() {
                 </div>
             </TextBody>
         </div>
+
+        <embed src="test.pdf" type="application/pdf" width="500" height="500"/>
     </main>
 
     <Footer />
