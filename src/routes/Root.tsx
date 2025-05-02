@@ -11,6 +11,25 @@ function App() {
     
     <main className='px-16'>
         <div className='mt-10'>
+            <TextBody>
+                <div>
+                This site examines urban renewal in Upper Port, Port Jefferson (NY), through the lens of sustainability
+and environmental justice. Upper Port is distinct from the rest of the village in its number
+undermaintained and abandoned properties, as well as in its concentration of Latinx businesses and
+residences. Deemed “blighted,” the village, via urban renewal, has the potential to claim and raze these
+properties—from the unused to the actively occupied Spanish speaking delis and barbershops, as well as a
+billiards hall (billar) and dentista—in the name of economic and environmental enhancement. While
+revitalization is needed, so too is procedural and distributive justice in the planning, implementation, and
+experiences of redevelopment. The historic, false front buildings flanking the western side of 112/Main
+Street in Upper Port serve as a cultural hub for the area’s Spanish speaking residents. It is crucial that
+revitalization within the urban renewal corridor, and the attending Six Acre Park to be developed nearby,
+does not produce demographic and cultural displacement under the guise of sustainable transit-oriented
+development. Connected is the downward assessment, and potential decommissioning of the Port
+Jefferson Power Plan, which, historically, has been a major source of revenue for the Village of Port
+Jefferson.
+                </div>
+            </TextBody>
+
             <h2>Port Jefferson's Dilemma</h2>
             <TextBody 
                 src='pjbuilding.jpg'
@@ -39,7 +58,8 @@ function App() {
             </TextBody>
         </div>
 
-        {/* <embed src="test.pdf" type="application/pdf" width="500" height="500"/> */}
+        <embed src="test.pdf" type="application/pdf" width="500" height="500"/>
+        <video src="villageaddress.mp4" width="600" height="300" controls="controls" autoplay="true" />
     </main>
 
     <Footer />

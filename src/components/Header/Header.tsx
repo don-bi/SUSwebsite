@@ -27,7 +27,7 @@ export default function Header() {
             <div className="bg-slate-300
             py-4 pb-12 px-16
             text-4xl font-semibold underline underline-offset-4">
-                Projects
+                {"Projects > Upper Port Urban Renewal"}
             </div>
             
             <nav className="bg-slate-800 
