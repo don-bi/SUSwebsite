@@ -3,7 +3,7 @@ export default function TextBody({
     src, alt, width
 }: 
 {left?: boolean, children: React.ReactNode, caption?: string
-    src?: string, alt?: string, width: number
+    src?: string, alt?: string, width?: number
 }) {
     return (
         <div className="relative">
