@@ -152,7 +152,7 @@ export default function HomePage() {
         <TextBody>
           {/* Keep your refined intro text here */}
           This site examines urban renewal in Upper Port, Port Jefferson (NY), through the lens of sustainability
-and environmental justice. Upper Port is distinct from the rest of the village in its number
+and environmental justice. Upper Port is distinct from the rest of the village in its number of
 undermaintained and abandoned properties, as well as in its concentration of Latinx businesses and
 residences. Deemed "blighted," the village, via urban renewal, has the potential to claim and raze these
 properties—from the unused to the actively occupied Spanish speaking delis and barbershops, as well as a
