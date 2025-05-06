@@ -34,9 +34,9 @@ export default function Header() {
             absolute left-0 right-0 bottom-0 transform translate-y-1/2 mx-16">
                 <ul className="text-white flex text-xl justify-center">
                     <li className="hover:bg-slate-700 py-2 px-4 duration-200"><a href="#">Home</a></li>
-                    <li className="hover:bg-slate-700 py-2 px-4 duration-200"><a href="#">Projects</a></li>
-                    <li className="hover:bg-slate-700 py-2 px-4 duration-200"><a href="#">Placeholder</a></li>
-                    <li className="hover:bg-slate-700 py-2 px-4 duration-200"><a href="#">Placeholder</a></li>
+                    {/* <li className="hover:bg-slate-700 py-2 px-4 duration-200"><a href="#">Projects</a></li>
+                    <li className="hover:bg-slate-700 py-2 px-4 duration-200"><a href="#">About</a></li>
+                    <li className="hover:bg-slate-700 py-2 px-4 duration-200"><a href="#">Contact</a></li> */}
                 </ul>
             </nav>
         </div>

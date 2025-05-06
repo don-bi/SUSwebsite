@@ -23,11 +23,11 @@ const Section = forwardRef<HTMLElement, SectionProps>(({
             ref={ref} 
             id={sectionId}
             aria-labelledby={`heading-${sectionId}`}
-            className={`scroll-mt-16 ${className}`} // Add scroll margin for better positioning with fixed headers
+            className={`scroll-mt-16 relative ${className}`} // Add scroll margin for better positioning with fixed headers
         >
             <h2 
                 id={`heading-${sectionId}`} 
-                className="text-2xl md:text-3xl font-semibold text-gray-800 dark:text-gray-200 border-b border-gray-200 dark:border-gray-700 pb-2 mb-4 md:mb-6"
+                className="text-2xl md:text-3xl font-semibold text-gray-800 dark:text-gray-8    00 border-b border-gray-200 dark:border-gray-700 pb-2 mb-4 md:mb-6"
             >
                 {title}
             </h2>

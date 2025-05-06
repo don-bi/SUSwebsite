@@ -14,13 +14,13 @@ interface ImageGalleryProps {
 
 export default function ImageGallery({ images }: ImageGalleryProps) {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 my-6">
+        <div className="max-w-full gap-4 flex flex-wrap justify-center">
             {images.map((image, index) => (
                 <figure key={index} className="break-inside-avoid-column"> {/* Helps prevent weird breaks if using columns */}
                     <img
                         src={image.src}
                         alt={image.alt}
-                        className="w-full h-auto rounded-lg shadow-md object-cover" // Use object-cover if aspect ratios vary wildly
+                        className="w-[400px] h-auto rounded-lg shadow-md object-cover" // Use object-cover if aspect ratios vary wildly
                         loading="lazy" // Lazy load images below the fold
                     />
                     {image.caption && (

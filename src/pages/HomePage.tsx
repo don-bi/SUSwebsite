@@ -57,11 +57,7 @@ const timelineEvents = [
 
 // Sample Image Data (move to src/data/imageData.ts later)
 const galleryImages = [
-    { src: '/pjbuilding.jpg', alt: 'Latinx Delis on Main St', caption: 'Upper Port\'s Latinx businesses like El Limeño Deli serve the local community.' },
-    { src: '/pic2.jpg', alt: 'Vacant building on Main St', caption: 'Numerous vacant properties contribute to the "blight" narrative.' },
-    { src: '/pic3.jpg', alt: 'The Crossings next to abandoned building', caption: 'New development (The Crossings, left) contrasts with remaining older structures.' },
-    { src: '/pic4.jpg', alt: 'One North apartment complex', caption: 'One North apartments signal the changing skyline of Upper Port.' },
-    { src: '/src/assets/images/six_acre_park.jpg', alt: 'Site of future Six Acre Park', caption: 'Village-owned land designated for the future Six Acre Park.' },
+    { src: '/pjbuilding.jpg', alt: 'Latinx Delis on Main St', caption: 'One North apartments signal the changing skyline of Upper Port.' },
     // Add more images
 ];
 
@@ -75,7 +71,8 @@ export default function HomePage() {
     profile: null,
     renewal: null,
     future: null,
-    research: null
+    research: null,
+    references: null
   });
   
   // Flag to prevent scroll handling during programmatic scrolling
@@ -197,7 +194,7 @@ Jefferson.
         <TextBody>
           <div>
             {/* Briefly explain the LIPA situation based on pages 4-6 */}
-            The financial landscape of Port Jefferson has been significantly impacted by the reassessment of the Port Jefferson Power Plant. For decades, the plant's high assessment provided substantial revenue, keeping resident taxes relatively low. Following the expiration of agreements preventing tax challenges in 2013, the Long Island Power Authority (LIPA) pursued a significant reduction in the plant's assessed value. A settlement in 2018 initiated an eight-year "glide path" gradually reducing the plant's tax contribution, forcing the Village and School District to find alternative revenue streams or raise taxes. This financial pressure became a primary driver for pursuing large-scale redevelopment, particularly in Upper Port. <span className='italic text-sm text-gray-600'>(See pp. 4-6)</span>
+            The financial landscape of Port Jefferson has been significantly impacted by the reassessment of the Port Jefferson Power Plant. For decades, the plant's high assessment provided substantial revenue, keeping resident taxes relatively low. Following the expiration of agreements preventing tax challenges in 2013, the Long Island Power Authority (LIPA) pursued a significant reduction in the plant's assessed value. A settlement in 2018 initiated an eight-year "glide path" gradually reducing the plant's tax contribution, forcing the Village and School District to find alternative revenue streams or raise taxes. This financial pressure became a primary driver for pursuing large-scale redevelopment, particularly in Upper Port. <span className='italic text-sm text-gray-600'>(Charboneau, 2024, pp. 4-6)</span>
           </div>
         </TextBody>
       </Section>
@@ -227,7 +224,7 @@ Jefferson.
          <TextBody>
             <div>
                 {/* Describe Upper Port based on pages 1, 3, 9, 10, 11 */}
-                Upper Port presents a distinct character compared to the tourist-oriented Lower Port (Downtown). Historically known as "Echo" and annexed from Port Jefferson Station in 1963, it experienced decline after changes to the LIRR service in the 1980s. Today, it hosts a concentrated Latinx population with businesses catering to this community – including delis, barbershops, a billiards hall, and a dentist, often located in buildings with unique, older architectural styles like false fronts. However, the area also suffers from vacant storefronts and properties showing deferred maintenance, particularly along the east side of Main Street (Route 112). This visual state contributed to the official "blight" designation used to justify the Urban Renewal Plan. This plan encompasses an eight-block area identified as over 60% Hispanic in the 2010 census data. <span className='italic text-sm text-gray-600'>(See Prof's Paper, pp. 1, 9, 10)</span>
+                Upper Port presents a distinct character compared to the tourist-oriented Lower Port (Downtown). Historically known as "Echo" and annexed from Port Jefferson Station in 1963, it experienced decline after changes to the LIRR service in the 1980s. Today, it hosts a concentrated Latinx population with businesses catering to this community – including delis, barbershops, a billiards hall, and a dentist, often located in buildings with unique, older architectural styles like false fronts. However, the area also suffers from vacant storefronts and properties showing deferred maintenance, particularly along the east side of Main Street (Route 112). This visual state contributed to the official "blight" designation used to justify the Urban Renewal Plan. This plan encompasses an eight-block area identified as over 60% Hispanic in the 2010 census data. <span className='italic text-sm text-gray-600'>(Charboneau, 2024, pp. 1, 9-10)</span>
             </div>
          </TextBody>
       </Section>
@@ -237,7 +234,7 @@ Jefferson.
         <TextBody>
             <div>
                 {/* Explain the plan, blight, eminent domain, concerns - pages 1, 2, 7, 8, 9 */}
-                Driven by the need for revenue and framed by the 2016 Urban Renewal Plan, redevelopment is rapidly transforming Upper Port. The plan, leveraging the state's definition of "blight," grants the Village potential power of eminent domain to acquire and demolish properties within the designated zone. New apartment complexes like The Hills (market rate), The Crossings (affordable), and the soon-to-be-completed One North (luxury) are replacing former businesses and vacant lots. While development addresses underutilization, concerns about displacement are significant. The plan explicitly targets demolition of existing structures, many housing Latinx businesses and residences. As former Trustee Bruce Miller and others noted, there's suspicion that some property owners (many being distant LLCs) allowed buildings to deteriorate, anticipating buyouts facilitated by the renewal plan and subsidies like PILOTs granted via the Brookhaven IDA. Critically, the voices of the existing Latinx residents and business owners, those most vulnerable to displacement, have been largely absent from the planning process. <span className='italic text-sm text-gray-600'>(See Prof's Paper, pp. 1, 2, 7-9)</span>
+                Driven by the need for revenue and framed by the 2016 Urban Renewal Plan, redevelopment is rapidly transforming Upper Port. The plan, leveraging the state's definition of "blight," grants the Village potential power of eminent domain to acquire and demolish properties within the designated zone. New apartment complexes like The Hills (market rate), The Crossings (affordable), and the soon-to-be-completed One North (luxury) are replacing former businesses and vacant lots. While development addresses underutilization, concerns about displacement are significant. The plan explicitly targets demolition of existing structures, many housing Latinx businesses and residences. As former Trustee Bruce Miller and others noted, there's suspicion that some property owners (many being distant LLCs) allowed buildings to deteriorate, anticipating buyouts facilitated by the renewal plan and subsidies like PILOTs granted via the Brookhaven IDA. Critically, the voices of the existing Latinx residents and business owners, those most vulnerable to displacement, have been largely absent from the planning process. <span className='italic text-sm text-gray-600'>(Charboneau, 2024, pp. 1-2, 7-9)</span>
             </div>
         </TextBody>
         
@@ -278,14 +275,14 @@ Jefferson.
             <TextBody>
                 <div>
                     {/* Discuss Six Acre Park, LIRR electrification, SBU link - pages 2, 11, 12, 13 */}
-                    Beyond the immediate building developments, future plans aim to further reshape Upper Port. The creation of Six Acre Park, east of the main corridor, is promoted as an environmental amenity and "living laboratory," expected to enhance local ecology and property values. There is persistent advocacy, particularly from the Port Jefferson Civic Association, for the electrification of the LIRR Port Jefferson line, often framed within climate goals (CLCPA) but strongly linked to increasing transit-oriented development potential and attracting a new demographic. The Village's partnership with Stony Brook University ("Seawolves Country") signals an intent to draw university-affiliated populations—students, faculty, and staff—to the new housing, potentially further shifting the area's cultural and economic makeup. <span className='italic text-sm text-gray-600'>(See Prof's Paper, pp. 2, 11-13)</span>
+                    Beyond the immediate building developments, future plans aim to further reshape Upper Port. The creation of Six Acre Park, east of the main corridor, is promoted as an environmental amenity and "living laboratory," expected to enhance local ecology and property values. There is persistent advocacy, particularly from the Port Jefferson Civic Association, for the electrification of the LIRR Port Jefferson line, often framed within climate goals (CLCPA) but strongly linked to increasing transit-oriented development potential and attracting a new demographic. The Village's partnership with Stony Brook University ("Seawolves Country") signals an intent to draw university-affiliated populations—students, faculty, and staff—to the new housing, potentially further shifting the area's cultural and economic makeup. <span className='italic text-sm text-gray-600'>(Charboneau, 2024, pp. 2, 11-13)</span>
                 </div>
             </TextBody>
        </Section>
 
       {/* --- Research Document Section --- */}
       <Section title="Read the Full Research" id="research" ref={(el) => sectionRefs.current['research'] = el}>
-          <DocumentViewer pdfUrl="test.pdf" />
+          <DocumentViewer pdfUrl="SusPJ.pdf" />
           {/* Optionally add links to cited articles */}
       </Section>
 
@@ -320,6 +317,20 @@ Jefferson.
             </div>
           </div>
        </Section> */}
+
+       {/* --- References Section --- */}
+       <Section title="References" id="references" ref={(el) => sectionRefs.current['references'] = el}>
+         <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
+           <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">References</h3>
+           {/* MLA Style Citation */}
+           <div>
+             <h4 className="font-semibold mb-2 text-gray-700 dark:text-gray-300">MLA Citation</h4>
+             <p className="text-gray-700 dark:text-gray-300 pl-8 text-sm" style={{ textIndent: "-2em", marginLeft: "2em" }}>
+               Charboneau, Adam. "Inequitable Planning for a Sustainable Future in Port Jefferson, New York." 2024.
+             </p>
+           </div>
+         </div>
+       </Section>
 
     </div>
   );
