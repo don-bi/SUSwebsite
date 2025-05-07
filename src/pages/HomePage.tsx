@@ -237,6 +237,13 @@ Jefferson.
                 Driven by the need for revenue and framed by the 2016 Urban Renewal Plan, redevelopment is slowly, but steadily, transforming Upper Port. The plan, leveraging the state's definition of "blight," grants the Village potential power of eminent domain to acquire and demolish properties within the designated zone. New apartment complexes like The Hills (market rate), The Crossings (affordable), and the soon-to-be-completed One North (luxury) are replacing former businesses and vacant lots. While development addresses underutilization, concerns about displacement are significant. The plan explicitly targets demolition of existing structures, many housing Latinx businesses and residences. As former Trustee Bruce Miller and others noted, there's suspicion that some property owners (many being distant LLCs) allowed buildings to deteriorate, anticipating buyouts facilitated by the renewal plan and subsidies like PILOTs granted via the Brookhaven IDA. Critically, the voices of the existing Latinx residents and business owners, those most vulnerable to displacement, have been largely absent from the planning process. <span className='italic text-sm text-gray-600'>(Charboneau, 2024, pp. 1-2, 7-9)</span>
             </div>
         </TextBody>
+
+        <div className="text-center mb-6">Below are the plans for Upper Port</div>
+
+        <div className="flex justify-center">
+            <DocumentViewer pdfUrl="/renewalplan.pdf" caption="2016 Urban Renewal Plan" />
+            <DocumentViewer pdfUrl="/finalplan.pdf" caption="2030 Plan Update" />
+        </div>
         
         {/* Add a visual callout for the blight definition */}
         <div className="mt-6 bg-amber-50 dark:bg-amber-900/50 border-l-4 border-amber-500 p-4 rounded-r-lg shadow-md">

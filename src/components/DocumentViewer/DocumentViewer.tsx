@@ -1,8 +1,9 @@
 interface DocumentViewerProps {
     pdfUrl: string;
+    caption?: string;
 }
 
-export default function DocumentViewer({ pdfUrl }: DocumentViewerProps) {
+export default function DocumentViewer({ pdfUrl, caption }: DocumentViewerProps) {
     return (
         <div className="max-w-4xl mx-auto my-6">
             <div className="flex justify-center mb-4">
@@ -18,6 +19,9 @@ export default function DocumentViewer({ pdfUrl }: DocumentViewerProps) {
                     height="600px"
                 />
             </div>
+            <p className="text-center text-sm text-gray-700 mt-2">
+                {caption}
+            </p>
             <p className="text-center text-sm text-gray-500 mt-2">
                 If the PDF doesn't display correctly, you can download it using the button above.
             </p>
