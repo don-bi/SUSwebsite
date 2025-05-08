@@ -288,8 +288,8 @@ Jefferson.
        </Section>
 
       {/* --- Research Document Section --- */}
-      <Section title="Read the Full Research" id="research" ref={(el) => sectionRefs.current['research'] = el}>
-          <DocumentViewer pdfUrl="SusPJ.pdf" />
+      <Section title="Read Ongoing Research from the 2024 SACRPH Conference" id="research" ref={(el) => sectionRefs.current['research'] = el}>
+          <DocumentViewer pdfUrl="SACRPH.pdf" />
           {/* Optionally add links to cited articles */}
       </Section>
 
