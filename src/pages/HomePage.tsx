@@ -163,7 +163,7 @@ Street in Upper Port serve as a cultural hub for the area's Spanish speaking res
 revitalization within the urban renewal corridor, and the attending Six Acre Park to be developed nearby,
 does not produce demographic and cultural displacement under the guise of sustainable transit-oriented
 development. Connected is the downward assessment, and potential decommissioning of the Port
-Jefferson Power Plan, which, historically, has been a major source of revenue for the Village of Port
+Jefferson Power Plant, which, historically, has been a major source of revenue for the Village of Port
 Jefferson.
         </TextBody>
       </Section>
