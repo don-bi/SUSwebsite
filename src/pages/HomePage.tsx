@@ -240,7 +240,7 @@ Jefferson.
 
         <div className="text-center mb-6">Below are the plans for Upper Port</div>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center md:flex-row flex-col">
             <DocumentViewer pdfUrl="/renewalplan.pdf" caption="2016 Urban Renewal Plan" />
             <DocumentViewer pdfUrl="/finalplan.pdf" caption="2030 Plan Update" />
         </div>
