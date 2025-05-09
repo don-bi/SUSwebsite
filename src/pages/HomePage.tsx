@@ -161,7 +161,7 @@ revitalization is needed, so too is procedural and distributive justice in the p
 experiences of redevelopment. The historic, false front buildings flanking the western side of 112/Main
 Street in Upper Port serve as a cultural hub for the area's Spanish speaking residents. It is crucial that
 revitalization within the urban renewal corridor, and the attending Six Acre Park to be developed nearby,
-does not produce demographic and cultural displacement under the guise of sustainable transit-oriented
+does not produce demographic and cultural displacement under the banner of sustainable transit-oriented
 development. Connected is the downward assessment, and potential decommissioning of the Port
 Jefferson Power Plant, which, historically, has been a major source of revenue for the Village of Port
 Jefferson.
