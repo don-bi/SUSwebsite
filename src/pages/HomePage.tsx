@@ -14,7 +14,7 @@ const timelineEvents = [
     isKeyEvent: false
   },
   { 
-    year: 1980, 
+    year: 1987, 
     description: "Decline in Upper Port begins after LIRR Ronkonkoma line electrification bypasses Port Jefferson line.",
     id: "history" 
   },
