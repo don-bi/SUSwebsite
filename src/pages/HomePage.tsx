@@ -326,10 +326,10 @@ Jefferson.
        </Section> */}
 
        {/* --- References Section --- */}
-       <Section title="References" id="references" ref={(el) => sectionRefs.current['references'] = el}>
+       {/* <Section title="References" id="references" ref={(el) => sectionRefs.current['references'] = el}>
          <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
            <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">References</h3>
-           {/* MLA Style Citation */}
+           MLA Style Citation
            <div>
              <h4 className="font-semibold mb-2 text-gray-700 dark:text-gray-300">MLA Citation</h4>
              <p className="text-gray-700 dark:text-gray-300 pl-8 text-sm" style={{ textIndent: "-2em", marginLeft: "2em" }}>
@@ -337,7 +337,7 @@ Jefferson.
              </p>
            </div>
          </div>
-       </Section>
+       </Section> */}
 
     </div>
   );
