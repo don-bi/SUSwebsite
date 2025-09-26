@@ -288,10 +288,10 @@ Jefferson.
        </Section>
 
       {/* --- Research Document Section --- */}
-      {/* <Section title="Read Ongoing Research from the 2024 SACRPH Conference" id="research" ref={(el) => sectionRefs.current['research'] = el}>
+      <Section title="Read Ongoing Research from the 2024 SACRPH Conference" id="research" ref={(el) => sectionRefs.current['research'] = el}>
           <DocumentViewer pdfUrl="SACRPH.pdf" />
           {/* Optionally add links to cited articles */}
-      </Section> */}
+      </Section>
 
        {/* --- Video Embed --- */}
        <Section title="Village Perspectives">
